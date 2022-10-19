@@ -15,7 +15,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <Hero />
       <About />
-      <Projects projects={data.allAirtable.nodes} title="latest projects" />
+      <GridProjects projects={data.allAirtable.nodes} title="latest projects" />
       <Survey />
       <Slider customers={data.customers.nodes} />
     </Layout>
